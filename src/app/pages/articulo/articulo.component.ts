@@ -34,10 +34,11 @@ export class ArticuloComponent implements OnInit {
                         this.articulo = articulo;
 
                         //this.meta.addTag({ name:'og:url', content: ''});
-                        this.meta.addTag({ name:'og:type', content: 'articulo'});
-                        this.meta.addTag({ name:'og:title', content: this.articulo.titulo});
-                        this.meta.addTag({ name:'og:description', content: this.articulo.descripcion});
-                        this.meta.addTag({ name:'og:image', content: this.articulo.foto_web});
+                        this.meta.addTag({ name:'keywords', content: 'Tlapa de transforma con la esperanza de la gente'});
+                        this.meta.addTag({ name:'type', content: 'articulo'});
+                        this.meta.addTag({ name:'title', content: this.articulo.titulo});
+                        this.meta.addTag({ name:'description', content: this.articulo.descripcion});
+                        this.meta.addTag({ name:'image', content: this.articulo.foto_web});
 
 
                     });
